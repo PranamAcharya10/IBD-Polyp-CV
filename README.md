@@ -62,12 +62,12 @@ IBD-Polyp-CV/
 | Week | Task | Status |
 |---|---|---|
 | Week 1 | Environment setup, data exploration | ✅ Done |
-| Week 2 | Data pipeline & augmentation | ⏳ Upcoming |
-| Week 3 | Baseline polyp classifier | ⏳ Upcoming |
-| Week 4 | U-Net polyp segmentation | ⏳ Upcoming |
+| Week 2 | Data pipeline & augmentation | ✅ Done |
+| Week 3 | Baseline polyp classifier | ✅ Done |
+| Week 4 | U-Net polyp segmentation | ✅ Done |
 | Week 5 | YOLOv8 real-time detection | ⏳ Upcoming |
 | Week 6 | IBD severity scoring model | ⏳ Upcoming |
-| Week 7 | Grad-CAM explainability | ⏳ Upcoming |
+| Week 7 | Grad-CAM explainability | ✅ Done |
 | Week 8 | Gradio demo + deployment | ⏳ Upcoming |
 
 ---
@@ -76,7 +76,9 @@ IBD-Polyp-CV/
 
 | Model | Dataset | Metric | Score |
 |---|---|---|---|
-| — | — | — | *To be updated* |
+| EfficientNet-B0 | HyperKvasir + Kvasir-SEG | Accuracy | 99.25% |
+| U-Net | Kvasir-SEG | Dice Score | 87.53% |
+| Grad-CAM | Kvasir-SEG | Explainability | ✅ Visual heatmaps |
 
 ---
 
