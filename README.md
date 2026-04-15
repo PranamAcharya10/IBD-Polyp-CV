@@ -79,6 +79,7 @@ IBD-Polyp-CV/
 | EfficientNet-B0 | HyperKvasir + Kvasir-SEG | Accuracy | 99.25% |
 | U-Net | Kvasir-SEG | Dice Score | 87.53% |
 | Grad-CAM | Kvasir-SEG | Explainability | ✅ Visual heatmaps |
+| IBD Severity Model | HyperKvasir UC | Accuracy | 71.35% |
 
 ---
 
